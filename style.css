@@ -97,6 +97,7 @@
 .hader {
   display: flex;
   align-items: center;
+  margin-right: 38px;
 }
 
 /* Style for the text container */
