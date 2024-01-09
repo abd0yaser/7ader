@@ -6,6 +6,10 @@
   font-family: "Abril Fatface";
   src: url("./Font/AbrilFatface-Regular.ttf");
 }
+@font-face {
+  font-family: "Cairo";
+  src: url("./Font/Cairo-VariableFont_slnt\,wght.ttf");
+}
 
 .container {
   width: 428px;
@@ -18,8 +22,8 @@
   height: 20%;
   overflow: hidden;
   background-color: #d49d40;
-  border-top-right-radius: 67px;
-  border-bottom-left-radius: 67px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
   width: 401px;
   height: 242px;
 }
@@ -29,9 +33,7 @@
   text-align: center;
   font-family: "Hacen Algeria Hd";
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   width: 147px;
   height: 39px;
   margin-top: 11px;
@@ -39,21 +41,17 @@
 .availability-text {
   display: flex;
 
-  flex-direction: column;
-  justify-content: center;
   color: #e3e2e2;
 
   text-align: center;
   font-family: "Abril Fatface";
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .appstore {
   display: flex;
-  flex-direction: column; /* Updated to a column layout */
+  flex-direction: column;
   align-items: center;
   border-right: solid 1px #d49d40;
   margin-top: 10px;
@@ -66,8 +64,6 @@
 
 .app {
   display: flex;
-  flex-direction: row; /* Updated to a column layout */
-  align-items: center;
   margin-right: 16px;
 }
 
@@ -75,16 +71,14 @@
   display: flex;
   align-items: center;
   margin-left: 20px;
+  margin-right: 0px;
 }
 
-.play p {
-  color: #fff;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 5px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.store {
+  display: flex;
+  align-items: center;
+  margin-right: 2px;
+  margin-left: 16px;
 }
 
 /* Style for the inner container */
@@ -93,7 +87,37 @@
   right: 14px;
   top: 13px;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.title {
+  margin-right: 21px;
+}
+.name {
+  color: #fff;
+  font-family: "Cairo";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.job {
+  color: #fff;
+  font-family: "Cairo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.googleP {
+  color: #fff;
+  text-align: center;
+  font-size: 5px;
+  font-weight: 700;
+}
+
 .hader {
   display: flex;
   align-items: center;
@@ -118,7 +142,7 @@
   font-size: 26px;
   line-height: 37px;
   margin: 0;
-  font-family: Cairo;
+  font-family: "Cairo";
 }
 
 /* Style for the bottom container */
@@ -133,6 +157,7 @@
   bottom: 0;
   position: absolute;
   background-color: rgb(34, 34, 34);
+  align-items: center;
 }
 
 /* Style for the availability text */
