@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const buttonText = createElement("div", "button-text");
 
       socialMediaButton.id = "button-" + linkData.TypeID;
-      logoImage.src = `/images/${linkData.TypeID}.png`;
+      logoImage.src = `./images/${linkData.TypeID}.png`;
       logoImage.alt = "logo";
       buttonText.innerText = linkData.Type;
 
