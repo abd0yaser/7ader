@@ -22,8 +22,8 @@
   height: 20%;
   overflow: hidden;
   background-color: #d49d40;
-  border-top-right-radius: 90px;
-  border-bottom-left-radius: 90px;
+  border-top-right-radius: 67px;
+  border-bottom-left-radius: 67px;
   width: 401px;
   height: 242px;
 }
@@ -36,7 +36,6 @@
   font-weight: 400;
   width: 147px;
   height: 39px;
-  margin-top: 11px;
 }
 .availability-text {
   display: flex;
@@ -111,13 +110,6 @@
   line-height: normal;
 }
 
-.googleP {
-  color: #fff;
-  text-align: center;
-  font-size: 5px;
-  font-weight: 700;
-}
-
 .hader {
   display: flex;
   align-items: center;
@@ -151,92 +143,118 @@
   padding-left: 22px;
   justify-content: space-between;
   display: flex;
+  align-items: center;
   right: 0;
   left: 0;
   height: 38%;
   bottom: 0;
   position: absolute;
   background-color: rgb(34, 34, 34);
-  align-items: center;
 }
 
 /* Style for the availability text */
-.availability p {
-  margin: 0;
-  color: #e3e2e2;
-  font-family: "Abril Fatface";
-  font-size: 15px;
-  font-weight: 400;
+.googleP {
+  color: #fff;
+  text-align: center;
+  font-size: 5px;
+  font-weight: 700;
 }
 
-.main-container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1 1 0%;
-  margin-top: 8px;
-  margin-bottom: 5px;
-}
-
+/* Style for the button container */
 .button-container {
   width: 316px;
   height: 47px;
   display: flex;
   align-items: center;
-  border-radius: 25px;
-  margin-bottom: 14px;
+  justify-content: center;
+  border-radius: 37px;
+  margin-bottom: 15px;
   color: #020202;
-  text-align: center;
   font-family: "Hacen Algeria Hd";
-}
-
-.logo-image {
-  margin-left: 25px;
+  justify-content: center;
 }
 
 .button-text {
   color: rgb(255, 255, 255);
-  text-align: right;
+  text-align: center;
   flex: 0.6 1 0%;
+  margin-right: 50px;
+  margin-left: 0px;
 }
 
 .button-call {
   background-color: #858585;
 }
-.button-1 {
+#button-1 {
   background-color: #316ff6;
 }
-.button-2 {
+#button-2 {
   background: linear-gradient(
     270deg,
     rgba(255, 199, 0, 0.86) 7.28%,
+    rgba(252, 61, 0, 0.84) 19.24%,
     rgba(245, 1, 250, 0.8) 34.93%,
     rgba(80, 1, 249, 0.82) 86.58%
   );
 }
 
-.button-3 {
+#button-3 {
   background-color: #cd201f;
 }
 
-.button-4 {
+#button-4 {
   background-color: #101010;
 }
 
-.button-5 {
+#button-5 {
   background-color: #fffc00;
 }
-.button-6 {
+#button-6 {
   background-color: #1da1f2;
 }
 
-.button-7 {
+#button-7 {
   background-color: #ff6636;
 }
-.button-8 {
+#button-8 {
   background-color: #25d366;
 }
-.button-9 {
+#button-9 {
   background-color: #316ff6e8;
+}
+
+.social-media-container {
+  width: 316px;
+  border-radius: 25px;
+  margin-bottom: 14px;
+  color: #020202;
+  font-family: "Hacen Algeria Hd";
+
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 54px;
+}
+
+.app-info {
+  color: #e3e2e2;
+  text-align: center;
+  font-family: "Hacen Algeria Hd";
+  font-size: 14px;
+  font-weight: 400;
+  width: 147px;
+  height: 39px;
+  margin-top: 11px;
+}
+
+.social-media-button {
+  width: 316px;
+  height: 47px;
+  display: flex;
+  border-radius: 25px;
+  margin-bottom: 14px;
+  font-family: "Hacen Algeria Hd";
+}
+.social-media-container img {
+  float: left;
+  margin-right: 50px;
 }
